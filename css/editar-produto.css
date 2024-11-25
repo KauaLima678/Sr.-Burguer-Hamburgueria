@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lalezar&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #171717;
+    font-family: 'inter';
+    font-weight: 300;
+}
+
+.start a{
+    color: #F9B125;
+    text-decoration: none;
+    margin: 30px;
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+a i{
+    font-size: 25px;
+}
+
+.img img{
+    width: 150px;
+    margin-left: 40px;
+}
+
+body{
+    font-family: 'Lalezar';
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.form-group{
+  display: flex;
+  /* flex-direction: column; */
+  margin-bottom: 30px;
+}
+
+.form-group input{
+  margin-left: 20px;
+  background-color: transparent;
+  border: solid 2px #F9B125;
+  border-radius: 8px;
+  color: whitesmoke;
+  padding-left: 8px;
+}
+
+.form-group textarea{
+  margin-left: 20px;
+  background-color: transparent;
+  border: solid 2px #F9B125;
+  border-radius: 8px;
+  color: white;
+  width: 500px;
+  padding: 10px;
+}
+
+.form-group select{
+  margin-left: 20px;
+  background-color: black;
+  border: solid 2px #F9B125;
+  border-radius: 8px;
+  color: white;
+}
+
+.form-group label{
+  font-size: 20px;
+}
+
+.form-image input{
+  width: auto;
+  border: 0;
+  margin-right: 80px;
+}
+
+.form-image{
+  display: block;
+}
+
+.img-atual{
+  margin-top: 20px;
+}
+
+.title{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #F9B125;
+}
+
+.btn{
+  background-color: #F9B125;
+  border: transparent;
+  border-radius: 8px;
+  padding: 15px;
+  margin: auto;
+  transition: .5s;
+}
+
+.btn:hover{
+    background-color: #4d3300;
+    color: #fff;
+}
+
+footer{
+    background-color: #F9B125;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+  }
+  
+  .contato i{
+    margin-right: 10px;
+  }
+  
+  .redes{
+  text-align: center;
+  }
+  
+  .redes a{
+    margin: 10px;
+  }
+  
+  .links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+  
+  .mensagem{
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+    margin-right: -40px;
+  }
+  
+  .copyright{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .copyright hr{
+    border: 1px solid black;
+    width: 1519px;
+  }
+  
+  .copyright p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-top: -10px;
+  }

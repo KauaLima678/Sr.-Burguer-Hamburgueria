@@ -1,0 +1,223 @@
+body {
+    background-color: #1B1B1B;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    display : flex;
+    font-size: 40px;
+    justify-content: center;
+    color: white;
+}
+
+.container{
+    flex: 1;
+}
+
+.carrinho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    margin: 60px;
+    gap: 40px;
+}
+
+.item-carrinho {
+    display: flex;
+    width: 500px;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #171717;
+    border: solid #171717;
+    border-radius: 15px;
+    gap: 20px;
+}
+
+.imagem-produto img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.detalhes-produto h3 {
+    font-size: 30px;
+    color: #F9B125;
+}
+
+.detalhes-produto p {
+    padding: 5px;
+    color: white;
+}
+.button{
+    display: flex;
+    background-color: #F9B125;
+    border-radius: 4px;
+    width: 100px;
+    color: white;
+    padding: 3px;
+    border: transparent;
+    transition: .5s;
+}
+
+.button:hover{
+    background-color: #614100;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pagamento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+.pagamento h3 {
+    font-size: 30px;
+    color: #F9B125;
+    margin-bottom: 10px;
+}
+
+.input label{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+input[type='radio']{
+    appearance: none;
+    border: #000000 solid 2px;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input[type="radio"]:checked {
+    background-image: radial-gradient(black 45%, #f9b125 25%);
+    padding: 9px;
+    border-color: #000000;
+    border: 0;
+  }
+
+  input[type="radio"]:checked::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+
+
+.total-carrinho {
+    font-size: 20px;
+    color: #F9B125;
+    margin-top: 60px;
+}
+.button2{
+    display: flex;
+    font-size: 20px;
+    background-color: #F9B125;
+    border-radius: 10px;
+    width: 200px;
+    border: transparent;
+    color: #000000;
+    padding: 5px;
+    transition: .5s;
+}
+
+.button2:hover{
+    background-color: #614100;
+    color: whitesmoke;
+}
+
+.imput {
+    color: white;
+}
+
+.imput label{
+    font-size: 20px;
+}
+
+footer{
+    background-color: #F9B125;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.contato i{
+    margin-right: 10px;
+}
+
+.redes{
+  text-align: center;
+}
+
+.redes a{
+    margin: 10px;
+}
+
+.links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.mensagem{
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+    margin-right: -40px;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright hr{
+    border: 1px solid black;
+    width: 1519px;
+}
+
+.copyright p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-top: -10px;
+}
+
+.aviso{
+    color: #F9B125;
+    font-size: 20px;
+}

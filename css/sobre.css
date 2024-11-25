@@ -1,0 +1,152 @@
+body {
+    background-color: black;
+}
+
+.cont-inicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: -40px;
+}
+
+.cont-inicio img{
+    width: 300px;
+}
+
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #F9B125;
+    font-size: 55px;
+    margin: 50px;
+}
+.sobrep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    margin: 40px;
+    color: #ffffff;
+}
+.sobre2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #F9B125;
+    font-size: 55px;
+}
+
+.funds-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.fundadores{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 290px;
+    margin-top: 50px;
+    position: relative;
+    background-color: transparent;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.fundadores:hover{
+    height: 380px;
+    background-color: #ffffff;
+}
+
+.fundadores .fundadores-content {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 250px;
+    height: auto;
+    top: 0;
+    transition: 0.5s;
+}
+
+.fundadores:hover .fundadores-content{
+    top: -100px;
+    scale: 0.75;
+    }
+
+
+.fundadores-content img {
+    width: 230px;
+    /* margin: 30px; */
+    object-fit: cover;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    top: 220px;
+    width: 100%;
+    padding: 0 30px;
+    text-align: center;
+    height: 30px;
+    overflow: hidden;
+}
+
+.conteudo h2{
+    color: #F9B125;
+}
+
+.conteudo a{
+    background-color: #F9B125;
+    padding: 3px;
+    border-radius: 10px;
+    margin-top: -10px;
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+
+.conteudo a:hover{
+    background-color: #59400f;
+    color: #ffffff;
+}
+
+.fundadores:hover .conteudo{
+    top: 110px;
+    height: 250px;
+    transition: .5s;
+}
+
+
+.mapaetext {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 40px;
+ gap: 24px;
+ margin-top: 20px;
+
+}
+
+.mapa {
+    border-radius: 10%;
+    height: 350px;
+    width: 600px;
+}
+
+.mapaetext p {
+        font-size: 30px;
+        color: #F9B125;
+        width: 500px;
+    }

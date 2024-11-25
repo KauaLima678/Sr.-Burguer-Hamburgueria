@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lalezar&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lalezar&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../imgs/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lalezar';
+    backdrop-filter: blur(20px);
+}
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000008f;
+    flex-direction: column;
+    width: 500px;
+    height: 680px;
+    margin: 30px;
+    color: #F9B125;
+}
+
+.title-login{
+    position: absolute;
+    top: 0;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Abel';
+    position: absolute;
+}
+
+form input{
+    background-color: transparent;
+    border: transparent;
+    border-bottom: solid #F9B125 1px;
+    width: 300px;
+    color: white;
+    margin-bottom: 80px;
+    outline: none;
+}
+
+form label{
+    margin-bottom: 10px;
+}
+
+.button{
+    padding: 8px;
+    background-color: #F9B125;
+    color: #000000;
+    border-radius: 8px;
+    font-family: 'Lalezar';
+    font-size: 17px;
+    transition: 0.5s;
+    border: transparent;
+    opacity: 1;
+}
+
+.button:hover{
+    background-color: #7e5911;
+    color: white;
+}
+
+.cadastro a{
+    text-align: center;
+    text-decoration: none;
+    color: #F9B125;
+}
+
+.cadastro{
+    font-family: 'Abel';
+    bottom: 0;
+    margin-bottom: -400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 230px;
+    font-size: 17px;
+}
+
+.cadastro{
+    color: white;
+}
+
+

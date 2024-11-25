@@ -1,0 +1,61 @@
+footer{
+  background-color: #F9B125;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+  cursor: pointer;
+}
+
+.contato i{
+  margin-right: 10px;
+}
+
+.redes{
+text-align: center;
+}
+
+.redes a{
+  margin: 10px;
+}
+
+.links a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.mensagem{
+  color: white;
+  text-align: center;
+  margin-top: -20px;
+  margin-right: -40px;
+}
+
+.copyright{
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright hr{
+  border: 1px solid black;
+  width: 1519px;
+}
+
+.copyright p{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 10px;
+  margin-top: -10px;
+}
+

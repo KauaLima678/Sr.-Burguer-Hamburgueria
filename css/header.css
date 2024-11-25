@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lalezar&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #171717;
+    font-family: 'inter';
+    font-weight: 300;
+    position: relative;
+}
+
+.start a{
+    color: #F9B125;
+    text-decoration: none;
+    margin: 30px;
+    font-size: 16px;
+    margin-right: 40px;
+    transition: .5s;
+}
+
+
+a i{
+    font-size: 25px;
+}
+
+.img img{
+    width: 150px;
+    margin-left: 40px;
+}
+
+.ativo span{
+    color: #614100;
+}
+
+.ativo i{
+    color: #614100;
+}
+
+.start a:hover{
+    color: #614100;
+}
+
+
+a span{
+    margin-left: 10px;
+}
+
+.nav-inx{
+    font-size: 16px;
+    font-family: 'inter';
+    font-weight: 200;
+}
+

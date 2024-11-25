@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lalezar&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lalezar';
+    background-color: black;
+    min-height: 100vh;
+}
+
+.inicio{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    animation: reveal 3s;
+}
+
+@keyframes reveal{
+    from{
+        opacity: 0;
+        backdrop-filter: blur;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.inicio img{
+    width: 100%;
+}
+
+.info-inicio{
+    position: absolute;
+    margin-right: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: slide 2s;
+}
+
+@keyframes slide{
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+}
+
+.title{
+    color: #F9B125;
+    font-size: 50px;
+}
+
+.info-inicio p{
+    color: white;
+    font-size: 35px;
+}
+
+.info-inic{
+    color: #F9B125;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.info-inic p{
+    font-size: 25px;
+}
+
+.info-inic h1{
+    font-size: 40px;
+}
+
+.preco span{
+    margin-right: 10px;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin-bottom: 50px;
+}
+
+.produto img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.produto .nome{
+    color: #F9B125;
+    font-size: 25px;
+}
+
+.produtos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70px;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+
+.produto p{
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+.produto .preco{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+form .qntd{
+    margin-bottom: 20px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+form .adc-carrinho{
+    background-color: #F9B125;
+    width: 100%;
+    font-weight: 450;
+    font-family: 'Montserrat';
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 8px;
+    border: 0;
+    bottom: 0;
+    transition: .5s;
+}
+
+form .adc-carrinho:hover{
+    color: white;
+    background-color: #614100;
+}
+
+
+footer{
+    background-color: #F9B125;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+  }
+  
+  .contato i{
+    margin-right: 10px;
+  }
+  
+  .redes{
+  text-align: center;
+  }
+  
+  .redes a{
+    margin: 10px;
+  }
+  
+  .links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+  
+  .mensagem{
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+    margin-right: -40px;
+  }
+  
+  .copyright{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .copyright hr{
+    border: 1px solid black;
+    width: 1519px;
+  }
+  
+  .copyright p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-top: -10px;
+  }

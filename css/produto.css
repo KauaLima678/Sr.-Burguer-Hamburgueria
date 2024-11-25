@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lalezar&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lalezar&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../imgs/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lalezar';
+    backdrop-filter: blur(20px);
+}
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000008f;
+    flex-direction: column;
+    width: 500px;
+    height: 780px;
+    margin: 30px;
+    color: #F9B125;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Abel';
+    position: absolute;
+    text-align: left;
+    margin-bottom: -80px;
+}
+
+form input{
+    background-color: transparent;
+    border: transparent;
+    border-bottom: solid #F9B125 1px;
+    width: 300px;
+    color: white;
+    margin-bottom: 80px;
+    outline: none;
+}
+
+form label{
+    margin-bottom: 10px;
+}
+
+.title-login{
+    position: absolute;
+    top: 0;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group:nth-last-of-type(3){
+    margin-bottom: 20px;
+}
+
+.form-image input{
+    border: 0;
+}
+
+.cadastrar{
+    background-color: #F9B125;
+    width: 160px;
+    padding: 8px;
+    border-radius: 4px;
+    margin: auto;
+    transition: 0.5s;
+    opacity: 1;
+    color: black;
+}
+
+.cadastrar:hover{
+    opacity: 0.5;
+}
